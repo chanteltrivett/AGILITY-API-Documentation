@@ -15,7 +15,7 @@ Welcome to the Predictive AI Safeguard API documentation, your guide to seamless
     - [Example cURL Request](#example-curl-request)
     - [Response](#response)
     - [Handling Expired Tokens](#handling-expired-tokens)
-5. [Predictive AI Safeguard API Endpoints](#predictive-ai-safeguard-api-endpoints)
+5. [API Endpoints](#predictive-ai-safeguard-api-endpoints)
     - [Retrieve Supported Services](#retrieve-supported-services)
         - [Endpoint](#endpoint-1)
         - [Parameters](#parameters)
