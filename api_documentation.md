@@ -1,6 +1,6 @@
 # AGILITY API Documentation
 
-Welcome to AGILITY's API documentation. This guide provides detailed steps for integrating and using our API for advanced network trace analysis, using cURL for making requests.
+Welcome to AGILITY's API documentation. This guide provides detailed steps for using cURL to make requests to our API.
 
 ## Contents
 
