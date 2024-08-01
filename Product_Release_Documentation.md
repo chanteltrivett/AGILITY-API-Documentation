@@ -45,7 +45,7 @@
 *   The **Call Flow Details** card displays the Start Date and Time, Duration, IMSI, MSISDN, Device Type, B Number, Call Lag, and Header Size.
 *   The Results tab includes Protocol Level Analysis, Flow Extractions, Call Flow (multi-view), and KPI Analysis.
 *   Call Flow Details can be expanded and collapsed, allowing users to zone in on Call Flow diagrams (the Sequence Diagram & Topology Diagram), ProtocolLevel Analysis, Flow Extractons, and Diagnostics.
-*     
+  
     
 
 ### Bug Fixes
@@ -66,7 +66,6 @@
 *   Track, visualize & analyze subscriber-specific activity for network troubleshooting & optimization.
 *   Improved fonts for increased readability.
 
-  
 
 ### Bug Fixes
 
@@ -141,7 +140,6 @@
 *   **Multi-File Processing Email Notifications:** We’ve set up new email notifications that complement multi-file processing. Users who process (a) network analysis/analyses receive a notification email summarizing the analysis/analyses run. The email notification also lists files where call flows weren’t detected, prompting users to take remedial action when necessary.
 *   **User Feedback on Predictions:** For continuous ML Model improvement, users can now provide feedback concerning the accuracy of call flow analysis results. Feedback icons are located on the Call Flow Details screen, where users can select thumbs up to agree with the analysis result or thumbs down to disagree.
 *   **Display Analysis Results for Partially Analyzed Call Flows:** Now, AGILITY displays partial results for incomplete analyses. This means that data will still be available for review when a file is stuck in the processing status.
-*     
     
 
 ### What We’re Doing Behind the Scenes
@@ -164,9 +162,9 @@
 ### Bug Fixes
 
 *   **Functional Prediction Failure Procedures:**
-*   Previously:
+  Previously:
 *    Analysis reports were systematically discarded when a prediction failed
-*   Now:
+  Now:
 *   Reports are downloaded for any analysis/analyses that encounter prediction failures.
 *   AGILITY depicts the call flows within the files uploaded for any analysis/analyses.
 *   On the Call Flow Details page, we rectified duplicate messages appearing on the Message filter drop-down located on the Call Flow Details page.
