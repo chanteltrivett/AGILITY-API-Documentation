@@ -40,11 +40,11 @@
 ### What’s New
 
 *   Reintroduction of Legacy features on the new UI, including:
-  *   The ability to select specific results to explore them in depth.
-  *   Tallys of the total number of call flows, the total number of network elements, the total number of protocols, and the total number of procedures.
-  *   The **Call Flow Details** card displays the Start Date and Time, Duration, IMSI, MSISDN, Device Type, B Number, Call Lag, and Header Size.
-  *   The Results tab includes Protocol Level Analysis, Flow Extractions, Call Flow (multi-view), and KPI Analysis.
-  *   Call Flow Details can be expanded and collapsed, allowing users to zone in on Call Flow diagrams (the Sequence Diagram & Topology Diagram), ProtocolLevel Analysis, Flow Extractons, and Diagnostics.
+    *   The ability to select specific results to explore them in depth.
+    *   Tallys of the total number of call flows, the total number of network elements, the total number of protocols, and the total number of procedures.
+    *   The **Call Flow Details** card displays the Start Date and Time, Duration, IMSI, MSISDN, Device Type, B Number, Call Lag, and Header Size.
+    *   The Results tab includes Protocol Level Analysis, Flow Extractions, Call Flow (multi-view), and KPI Analysis.
+    *   Call Flow Details can be expanded and collapsed, allowing users to zone in on Call Flow diagrams (the Sequence Diagram & Topology Diagram), ProtocolLevel Analysis, Flow Extractons, and Diagnostics.
   
     
 
