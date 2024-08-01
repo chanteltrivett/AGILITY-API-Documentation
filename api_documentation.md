@@ -33,7 +33,7 @@ Access the API endpoints through the following base URL:
 
 Before you can use the AGILITY API, you must authenticate yourself by obtaining an `id_token`. This token will authorize your API requests.
 
-### Step 1: Obtain an Authentication Token
+### 1: Obtain an Authentication Token
 
 To authenticate, you will request an `id_token` by sending a POST request using cURL. This token will be required for all further API interactions.
 
@@ -69,7 +69,7 @@ A successful request will return a JSON object containing several tokens, includ
 ```
 **Important**: Store these tokens securely. The `id_token` is especially important as it will be used to authenticate all subsequent API requests.
 
-### Step 2: Use the Authentication Token
+### 2: Use the Authentication Token
 
 With the `id_token` obtained, include it in the header of all subsequent API requests for authentication.
 
@@ -79,7 +79,7 @@ With the `id_token` obtained, include it in the header of all subsequent API req
 
 This endpoint allows you to retrieve a list of services supported by AGILITY.
 
-### Step 1: Run the cURL Command
+### 1: Run the cURL Command
 
 To fetch the list of supported services, use the following cURL command. Replace `YOUR_ID_TOKEN` with the `id_token` obtained during authentication:
 
@@ -103,7 +103,7 @@ curl -X GET 'https://cv-dev.b-yond.com/cv/api/v1/services/?page=1&size=50' \
 
 To start a new network trace analysis, upload a trace file using the `POST 'https://cv-dev.b-yond.com/cv/api/v1/analysis/file'` endpoint.
 
-### Step 1: Run the cURL Command
+### 1: Run the cURL Command
 
 To start a new network trace analysis,upload a network trace file by using the following cURL command. Replace `myfile.pcap` with the path to your file and `YOUR_ID_TOKEN` with your authentication token:
 
@@ -128,7 +128,7 @@ curl -X POST 'https://cv-dev.b-yond.com/cv/api/v1/analysis/file' \
 
 Retrieve the results of a specific analysis using the analysis ID.
 
-### cURL Command
+### 1. Run the cURL Command
 
 To fetch analysis results, use the following cURL command. Replace `8599e936-19ee-4b13-a9ad-44fecadad9fe` with your specific analysis ID and `YOUR_ID_TOKEN` with your authentication token:
 
